@@ -53,3 +53,7 @@ div.bottom:last-child::before {
 	text-align: center;
 	line-height: 25px;
 }
+
+div {
+	
+}
