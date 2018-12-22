@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div.box1, div.box2, div.box3 {
+	width:700px;
+	height:700px;
+	background-color: white;
+	border: 1px black solid;
+	position: relative;
+}
+
+div.box1-1, div.box2-1, div.box3-1{
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	position: absolute;
+}
+
+div.box1-2,div.box2-2, div.box3-2 {
+	width: 150px;
+	height: 150px;
+	background-color: blue;
+	position: absolute;
+	top: 150px;
+	left: 150px;
+}
+
+div.box1-3, div.box2-3, div.box3-3 {
+	width: 150px;
+	height: 150px;
+	background-color: yellow;
+	position: absolute;
+	top: 300px;
+	left: 300px
+}
+
+div > div.box2-2 > div {
+	width: 66.666px;
+	height: 66.666px;
+	background-color: black;
+	z-index: 1;
+	position: absolute;
+	top: 66.666px;
+	left: 66.666px;
+}
+
+div.box2 > div.box2-3 >div {
+	width: 66.666px;
+	height: 66.666px;
+	background-color: white;
+	position: absolute;
+	top:66.666px;
+	left: 66.666px;
+}
+
+
+div.box3 > div.box3-1 > div.box3-1a {
+	width: 66.666px;
+	height: 66.666px;
+	background-color: black;
+	position: absolute;
+	z-index: 1;
+}
+
+div.box3 > div.box3-1 > div.box3-1b {
+	width: 66.666px;
+	height: 66.666px;
+	background-color: white;
+	position: absolute;
+	z-index: 1;
+	top: 66.666px;
+	left: 66.666px;
+}
+
+
+div.box3 > div.box3-1 > div.box3-1c {
+	width: 66.666px;
+	height: 66.666px;
+	background-color: black;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+}
+
+div.box3 > div.box3-2 > div.box3-2c

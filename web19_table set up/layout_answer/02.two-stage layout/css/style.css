@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#header {
+	background-color: blue;
+}
+
+#header > p {
+	font-size: 40px;
+	text-align: center;
+	line-height: 100px;
+	color: white;
+}
+
+#contentArea {
+	background-color: green;
+}
+
+#contentArea > div {
+	float: left;
+}
+
+.aside {
+	width: 200px;
+	background-color: yellow;
+}
+
+.content {
+	width: 1000px;
+}
+
+#footer {
+	background-color: red;
+}
+
+p {
+	font-size: 40px;
+	text-align: center;
+	color: white;
+}
+
+#header p, #footer p {
+	line-height: 100px;
+}
+
+#contentArea p {
+	line-height: 700px;
+}
+
+.clear {
+	clear: both;
+}

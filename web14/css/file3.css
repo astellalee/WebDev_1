@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div a:link {
+	color: red;
+}
+
+ul.list1 a:visted {
+	color: pink;
+}
+
+ul.list2 a {
+	text-decoration: none;
+	background-color: black;
+	color: white;
+}
+
+ul.list2 a:visted {
+	color: gray;
+}
+
+div.divclass:hover {
+	background-color: skyblue;
+}
+
+ul.list3 a {
+	text-decoration: none;
+	color: red;
+}
+
+ul.list3 a:hover {
+	color: black;
+}
+
+ul.list3 a:active {
+	color: yellow;
+}
+
+body>div div {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+
+body > div div:hover {
+	background-color: pink;
+}
+
+body > div div:active {
+	background-color: gray;
+
+}

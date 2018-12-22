@@ -1,0 +1,26 @@
+div {
+  width: 200;
+  height: 200;
+}
+p.text1 {
+  background-color: blue;
+  color: white;
+  text-align: center;
+
+}
+p.text2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 200px
+}
+p.text3 {
+  background-color: red;
+}
+p.text4 {
+  background-color: pink;
+}
+span.span1 {
+  background-color: white;
+  color: green;
+}

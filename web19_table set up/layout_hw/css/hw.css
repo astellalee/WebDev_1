@@ -1,0 +1,38 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+#header{
+	height: 150px;
+	background-color: blue;
+	color: white;
+	font-size: 56px;
+	text-align: center;
+	line-height: 150px;
+}
+
+#contentsArea{
+	height: 500px;
+	background-color: yellow;
+	color: black;
+	font-size: 56px;
+	text-align: center;
+	line-height: 500px;
+}
+
+#footer {
+	height: 150px;
+	background-color:red;
+	color: white;
+	font-size: 56px;
+	text-align: center;
+	line-height: 150px;
+}

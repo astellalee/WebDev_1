@@ -1,0 +1,12 @@
+div {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+}
+
+div.box2 {
+  width: 277px;
+  height: 277px;
+  background-color: yellow;
+  margin: 0 auto;
+}

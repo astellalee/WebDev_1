@@ -1,0 +1,19 @@
+div.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-width: 10px;
+  border-color: white;
+  border-style: dashed;
+  padding: 20px;
+}
+
+div.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-top: 10px solid red;
+  border-right: 20px solid blue;
+  border-bottom: 5px solid black;
+  border-left: 100px solid green;
+}

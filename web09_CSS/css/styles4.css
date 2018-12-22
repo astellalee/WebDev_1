@@ -1,0 +1,30 @@
+div {
+  width: 200px;
+  height: 200px;
+}
+div.group1 {
+  background-color: blue;
+}
+div.group2 {
+    background-color: black;
+}
+div.group3 {
+  background-color: red;
+}
+div.group4 {
+  background-color: pink;
+}
+p.text1 {
+  color: white;
+  text-align: center;
+}
+p.text2 {
+  color: white;
+  text-align: center;
+  line-height: 200px;
+}
+
+span {
+  background-color: white;
+  color: green;
+}

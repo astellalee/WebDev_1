@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>회원가입</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+    <h1>회원가입</h1>
+    <form>
+        <fieldset>
+            <legend><h2>정보입력</h2></legend>
+            <label>이름 :</label>
+            <input type="text"/>
+            <br/>
+            <label>아이디 :</label> <input type="text"/>
+            <input type="submit" value="중복확인"/>
+            <br/>
+            <label>비밀번호 :</label>
+            <input type="password"/>
+            <button type="submit">비밀번호확인</button>
+            <a href="#">비밀번호 도움말</a>
+            <br/>
+            <span>성별 :</span>
+            <input type="radio" name="성별" value="남자"/><label>남자</label>
+            <input type="radio" name="성별" value="여자"/><label>여자</label>
+            <br/>
+            <label>휴대폰 :</label>
+            <select>
+                <optgroup label="통신사">
+                    <option value="skt">skt</option>
+                    <option value="kt">kt</option>
+                    <option value="lg">lg</option>
+                </optgroup>
+            </select>
+            <select>
+                <optgroup label="번호">
+                    <option value="010">010</option>
+                    <option value="011">011</option>
+                    <option value="016">016</option>
+                    <option value="018">018</option>
+                </optgroup>
+            </select>
+			<!--기타 텍스트는 그냥 입력하지 않고 span으로 묶어서 텍스트 정의-->
+            <input type="text"/><span>-</span>
+            <input type="text"/>
+            <br/>
+            <label>이메일 :</label>
+            <input type="text"/><span>@</span>
+            <select>
+                <optgroup label="이메일주소">
+                    <option value="선택">선택</option>
+                    <option value="naver">naver.com</option>
+                    <option value="daum">daum.net</option>
+                    <option value="nate">nate.com</option>
+                    <option value="gmail">gmail.com</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend><h2>약관동의</h2></legend>
+            <input type="checkbox" name="약관동의" value="이용약관"/>이용약관
+            <a href="#">전체보기</a><br/>
+            <input type="checkbox" name="약관동의" value="개인정보수집동의"/>개인정보 수집 및 이용
+            <a href="#">내용보기</a><br/>
+            <hr/>
+            <ul>
+                <li>7세 이상 14세 미만 회원은 회원가입 후 모바일에서 본인인증, 법정대리인 인증을 진행하면 서비스를 이용하실 수 있습니다.</li>
+                <li>선택약관에 동의하지 않아도 회원가입은 가능합니다.</li>
+            </ul>
+            <h3>약관과 개인정보 수집 및 이용을 확인하였으며 이에 동의하십니까?</h3>
+            <input type="submit" value="동의하고 회원가입"/>
+            <input type="reset" value="취소"/>
+        </fieldset>
+    </form>
+</body>
+</html>

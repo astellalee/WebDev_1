@@ -1,0 +1,25 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+div {
+	margin:10px;
+}
+
+p:first-child {
+	background-color: red;
+}
+
+p:last-child {
+	color: blue;
+}
+
+div:first-child >p:last-child {
+	font-style: italic;
+}
+
+div:last-child > p:first-child{
+	font-size: 50px;
+}

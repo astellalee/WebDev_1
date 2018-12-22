@@ -1,0 +1,22 @@
+div.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  padding-top: 50px;
+  padding-left:50px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+
+}
+
+div.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+span {
+  background-color: green;
+  padding: 50px;
+  margin: 50px
+}

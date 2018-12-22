@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body > div {
+	width: 400px;
+	height: 300px;
+	background-color: yellow;
+	margin: 200px;
+	position: relative;
+
+}
+
+body > div > div {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: relative;
+}
+
+body > div > div > div {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	right: 0;
+}

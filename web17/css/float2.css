@@ -1,0 +1,201 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body>div {
+	width: 500px;
+	border: 2px solid grey;
+	float:left;
+}
+
+div.red {
+	background-color: red;
+}
+
+div.blue {
+	background-color: blue;
+}
+
+div.green {
+	background-color: green;
+}
+
+div.yellow {
+	background-color: yellow;
+}
+
+div.purple {
+	background-color: purple;
+}
+
+div.box1>div.red {
+	width: 500px;
+	height: 100px;
+	float: left;
+}
+
+div.box1>div.blue {
+	width: 100px;
+	height: 300px;
+	float: left;
+}
+
+div.box1>div.green {
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+
+div.box1>div.yellow {
+	width: 100px;
+	height: 300px;
+	float: left;
+}
+
+div.box1>div.purple {
+	width: 500px;
+	height: 100px;
+	clear: both;
+	float: left;
+}
+
+body>div.box2 {
+	margin-left: 20px;
+}
+
+div.box2 >div.red {
+	width: 100px;
+	height: 500px;
+	float: left;
+}
+
+div.box2 > div.blue {
+	width: 300px;
+	height: 100px;
+	float: left;
+}
+
+div.box2 > div.green {
+	width: 100px;
+	height: 500px;
+	float: right;
+}
+
+div.box2 > div.yellow {
+	width: 300px;
+	height: 300px;
+	float: right;
+}
+
+div.box2 > div.purple {
+	width: 300px;
+	height: 100px;
+	clear: none;
+	float: left;
+}
+
+body> div.box3 {
+	margin-left: 20px;
+}
+
+
+div.box3 > div.red {
+	width: 400px;
+	height: 100px;
+	float: left;
+}
+
+div.box3 >div.blue {
+	width: 100px;
+	height: 400px;
+	float: right;
+}
+
+div.box3>div.green {
+	width: 100px;
+	height: 400px;
+	float: left;
+}
+
+div.box3>div.yellow {
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+
+div.box3>div.purple {
+	width: 400px;
+	height: 100px;
+	float: right;
+}
+
+body>div.box4 {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+div.box4> div.red {
+	width: 100px;
+	height: 400px;
+	float: left;
+}
+
+div.box4>div.blue{
+	width: 400px;
+	height: 100px;
+	float: left;
+}
+
+div.box4>div.green{
+	width: 300px;
+	height:300px;
+	float: left;
+}
+div.box4>div.yellow{
+	width: 100px;
+	height: 400px;
+	float: right;
+}
+
+div.box4>div.purple{
+	width: 400px;
+	height: 100px;
+	float: right;
+}
+
+body>div.box5{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+div.box5> div.red {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+div.box5>div.blue {
+	width: 300px;
+	height: 400px;
+	float: right;
+}
+
+div.box5>div.green {
+	width: 200px;
+	height: 300px;
+	float: left;
+}
+
+div.box5>div.yellow {
+	width: 200px;
+	height: 100px;
+	float: left;
+}
+
+div.box5>div.purple {
+	width: 100px;
+	height: 100px;
+	float: right;
+}

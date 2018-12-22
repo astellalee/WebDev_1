@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body > div.group {
+	width: 300px;
+	border: 5px solid black;
+
+}
+
+div.box1 {
+	width: 100px;
+	height: 200px;
+	background-color: red;
+	float: left;
+}
+
+div.box2 {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	float: left;
+}
+
+div.box3 {
+	width: 100px;
+	height: 200px;
+	background-color: green;
+	float: right;
+}
+
+div.box4 {
+	width:100px;
+	height: 100px;
+	background-color: blue;
+	float: left;
+}
+
+div.box5 {
+	width: 200px;
+	height: 300px;
+	background-color: pink;
+}
+
+br {
+	clear: both;
+}

@@ -1,0 +1,15 @@
+* {
+	margin:0px;
+	padding:0px;
+	list-style: none;
+}
+
+a:link {
+	color: yellow;
+	background-color: black;
+}
+
+a:visited {
+	color: white;
+	background-color: blue;
+}

@@ -1,0 +1,14 @@
+* {
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+
+div {
+	height: 50px;
+	background-color: red;
+}
+
+p {
+	background-color: blue;
+}

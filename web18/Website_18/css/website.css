@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body>div.star > div {
+	width: 200px;
+	height:200px;
+	margin-right: 20px;
+	float: left;
+	background-image: url('../img/star.png'),url('../img/space.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+div.bluelines {
+	height: 300px;
+	clear: both;
+	background: url('../img/line.png') repeat top/200px scroll;
+}
+
+div.penguin {
+	height: 300px;
+	clear: both;
+	background: url('../img/fixed.jpg') no-repeat center/cover fixed;
+	text-indent: 1440px;
+	text-align: left;
+	line-height: 300px;
+	font-size: 42px;
+	color: white;
+}
+
+div.sunset {
+	height: 500px;
+	width: 500px;
+	background: url('../img/background_02.jpg') no-repeat center/cover scroll;
+	text-align: center;
+}
+
+
+div.sunset> div.title {
+	font-size: 56px;
+	padding-top: 150px;
+	color: white;
+}
+
+div.sunset div.button {
+	font-size: 24px;
+	color: black;
+	padding: 15px 50px;
+	margin-top: 15px;
+	background-color: white;
+	display: inline-block;
+}

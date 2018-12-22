@@ -1,0 +1,50 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+body > div {
+	width: 500px;
+	height: 400px;
+	background-color: yellow;
+	margin: 300px;
+	position: relative;
+}
+
+div.box1 {
+	width:100px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+
+div.box2 {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+div.box3 {
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+div.box4 {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}

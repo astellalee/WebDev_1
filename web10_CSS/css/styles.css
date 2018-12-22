@@ -1,0 +1,20 @@
+p.text1{
+  font-style: italic;
+}
+p.text2{
+  font-style: oblique;
+}
+address {
+  font-style: normal;
+}
+p.text3 {
+  letter-spacing: 5px;
+}
+p.text4 {
+  word-spacing: 5px;
+  line-height: 50px;
+}
+
+p {
+  text-indent: 20px;
+}

@@ -1,0 +1,42 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+div.textGroup > p {
+	font-size: 40px;
+	font-weight: bold;
+	color: yellow;
+	background-color: green;
+}
+
+ul li {
+	text-decoration: line-through dotted white ;
+}
+
+ul.listGroup01 li {
+	background-color: red;
+}
+
+body > ul.listGroup02 > li {
+	background-color: pink;
+}
+
+ul.listGroup02 a {
+	color: green;
+}
+
+h1, h4, h5, h6 {
+	font-weight: normal;
+	font-size: 20px;
+	background-color: blue;
+}
+
+h1, body>p {
+	text-decoration: underline wavy red;
+}
+
+h2, h3, h4,  {
+		text-decoration: overline dashed blue;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>회원가입</title>
+  </head>
+  <body>
+    <h1>회원가입</h1>
+    <form>
+      <fieldset>
+        <legend>정보입력</legend>
+        <label>이름:</label>
+        <input type="text"/>
+        <br>
+        <label>아이디:</label>
+        <input type="text"/>
+        <input type="button" name="" value="중복확인"/>
+        <br>
+        <label>비밀번호</label>
+        <input type="password"/>
+        <input type="button" value="비밀번호 확인"/>
+        <a href="" target="_self" title="비밀번호 도움말">비밀번호 도움말</a>
+        <br>
+        <label>성별:</label>
+        <input type="radio" name="gender" value="여자">
+        <label>여자</label>
+        <input type="radio" name="gender" value="남자">
+        <label>남자</label>
+        <br>
+        <label>휴대폰:</label>
+        <select>
+          <optgroup label="통신사">
+            <option value="SKT">SKT</option>
+            <option value="KT">KT</option>
+            <option value="LG">LG</option>
+          </optgroup>
+        </select>
+        <input type="text"/>-
+        <input type="text"/>
+
+        <br>
+        <label>이메일:</label>
+        <input type="text">@
+        <select>
+          <optgroup label="이메일">
+            <option value="선택">선택</option>
+            <option value="naver">naver</option>
+            <option value="daum">daum</option>
+            <option value="nate">nate</option>
+            <option value="gmail">gmail</option>
+          </optgroup>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>약관동의</legend>
+        <input type="checkbox"/>
+        <label>이용약관 <a href="#" target="_blank" title="terms of use">전체보기</a></label>
+        <input type="checkbox"/>
+        <label>개인정보 수집 및 이용 <a href="#">내용보기</a></label>
+        <hr>
+        <ul>
+          <li>7세 이상 14세 미만 회원은 외원가입 후 모바일에서 본인인증</li>
+          <li>선택약관에 동의 하지 않아 도 하원가입은 가능합니다.</li>
+        </ul>
+        <h3>약관과 개인정보 수집 및 이용을 확인하였으며 이에 동의하십니까?</h3>
+        <input type="button" name="" value="동의하고 회원가입"/>
+        <input type="button" name="" value="취소"/>
+      </fieldset>
+    </form>
+
+  </body>
+</html>
